@@ -42,13 +42,18 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBOutlet weak var topButton: UIButton!
+    @IBOutlet weak var bottomButton: UIButton!
+    
     @IBOutlet weak var storyTextLabel: UILabel!
     
     override func viewDidLoad() {
             super.viewDidLoad()
             
             
-            
+            storyTextLabel.text = story1
+            topButton.setTitle(answer1a , for: .normal)
+            bottomButton.setTitle(answer1b, for: .normal)
         }
         
         
