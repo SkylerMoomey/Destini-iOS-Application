@@ -1,2 +1,2 @@
 # Destini-iOS-Application
-choose your own adventure game
+choose your own adventure game, just a demo
